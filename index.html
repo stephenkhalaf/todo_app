@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>crud</title>
+</head>
+<body>
+    <h2 style="text-align:center">A TODO APPLICATION</h2>
+    <div class="container">
+        <div class="left">
+            <label for="form">write your post here</label><br>
+            <form action="" id="form">
+                <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+                <div class="msg"></div><br>
+                <button type="submit">Post</button>
+            </form>
+        </div>
+        <div class="right">
+            <h3>Your posts here</h3>
+            <div class="posts">
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="app">
+        <h4 style="text-align:center">Todo App</h4>
+        <div id="addnew">
+            <span>Add new task</span>
+            <button>+</button>
+        </div>
+        <h5 style="text-align:center">Tasks</h5>
+        <div id="myform" >
+        <form  id="info" >
+            <div class="cancel">X</div>
+            <label for="title">Task title </label>
+            <input type="text" id="title">
+            <div class="error" style="margin-left:50px; text-align:left;"></div>
+            <label for="date">Due date</label>
+            <input type="date" name="date" id="date">
+            <label for="description"></label>
+            <textarea name="" id="description" cols="30" rows="10"></textarea>
+            <div id="mybtns">
+            <button type='button' style="background:gray; color: white; font-size: 20px;" id="close">close</button>
+            <button type='submit' style="background:blue; color: white; font-size: 20px;" id="add">add</button>
+            </div>
+        </form>
+    </div>
+
+        <div id="tasks">
+            
+        </div>
+    </div>
+  <script src="index.js"></script>
+</body>
+</html>

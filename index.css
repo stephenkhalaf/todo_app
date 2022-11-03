@@ -1,0 +1,119 @@
+.container{
+    display: flex;
+    gap: 50px;
+}
+
+.posts{
+    min-width: 400px;
+}
+
+.posts > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.posts p{
+    max-width:300px;
+    word-wrap: break-word;
+    margin-right: 20px;
+}
+
+.options{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.options button{
+    cursor: pointer
+}
+
+.msg{
+    color: red
+}
+.error{
+    color: red;
+}
+
+hr{
+    margin: 10px 0
+}
+
+.app{
+    width: 600px;
+    min-height: 400px;
+    border: 2px solid black;
+    padding: 15px;
+    box-sizing: border-box;
+    position: relative
+}
+#addnew{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid black;
+    cursor: pointer
+}
+
+#addnew button{
+    background: green;
+    color: white;
+    cursor: pointer;
+}
+
+#tasks > div{
+    border: 1px solid black;
+    padding: 10px;
+    display: grid;
+    gap: 5px;
+}
+
+#tasks {
+    display: grid;
+    gap: 15px;
+}
+
+#info label{
+    display: block
+}
+#info input{
+    margin: 10px;
+    width: 80%;
+    min-height: 30px
+}
+
+#myform{
+    position: absolute;
+    min-width: 100%;
+    min-height: 200px;
+    background:lightgrey;
+    top: 0;
+    left:200px;
+    padding: 10px;
+    display: none;
+    box-sizing: border-box;
+}
+
+#mybtns{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0
+}
+#info{
+    text-align: center;
+    position: relative
+}
+#myform textarea{
+    width: 80%
+}
+ 
+
+.cancel{
+    position: absolute;
+    background-color: red;
+    width: 20px;
+    right:0px;
+    cursor: pointer
+}
